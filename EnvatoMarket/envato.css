@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+.envato{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    color: #fff;
+    padding: 1em 2em;
+    font-weight: bold;
+
+    
+}  
+.buy-now{
+
+    background: #82b440;
+    border: none;
+    padding: 0.5em 1em;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.logo-container {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .logo-container img {
+    height: 30px;
+    margin-right: 10px; 
+  }
+  
+  .logo-container .envato-market {
+    font-size: 1.2em; 
+  }
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: #0d0606;
+    padding: 1em 2em;
+}
+.header .nav a{
+    margin: 0 1em;
+    color: #383434;
+    text-decoration: none;
+}
+
+.hero{
+    text-align: center;
+    padding: 5em 2em;
+    background: white;
+}
+.hero h1{
+    font-size: 3em;
+}
+.hero h1 span{
+    font-weight: bold;
+    color: #333;
+}
+.hero p{
+    max-width: 600px;
+    margin: 1em auto;
+    color: #666;
+}
+.cta{
+    background-color: rgb(9, 9, 247);
+    border: none;
+    padding: 0.75em 1.5em;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.catagories nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #1a1a1a;
+    padding: 1em;
+}
+.catagories nav a{
+    color: #fff;
+    margin: 0 0.5em;
+    text-decoration: none;
+    font-weight: bold;
+}
+.catagories nav a.active{
+    text-decoration: underline;
+}
+.previews{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1em;
+    padding: 2em;
+}
+.preview {
+    background: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
