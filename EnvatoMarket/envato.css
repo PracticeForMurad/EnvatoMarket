@@ -97,13 +97,28 @@ body{
 .previews{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1em;
+    gap: 10em;
     padding: 2em;
+    background-color: #101010;
+    
 }
 .preview {
-    background: #fff;
-    padding: 2em;
+    background: #101010;
+    border: none;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
+  }
+  .preview img{
+    transition: all 0.3s ease;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  width: 270px; /* öz ölçünə uyğun dəyiş */
+  height: 250px;
+  }
+  .preview img:hover{
+    opacity:0.45;
+    cursor: pointer;
   }
