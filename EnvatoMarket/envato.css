@@ -4,6 +4,45 @@ body{
     background: #f9f9f9;
     color: #333;
 }
+
+#changing-word{
+    position: absolute;
+    animation: fadeSlide 2s ease-in-out;
+    color: #333;
+    width: 100%;
+    top: 0;
+    left: 0;
+    line-height: 1.2;
+}
+@keyframes fadeSlide {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    10% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    90% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+  }
+.highlight{
+    color: #5b5a5a;
+}
+#word-container{
+    display: inline-block;
+    position: relative;
+    min-width: 220px;
+    height: 1.2em;
+    overflow: hidden;
+    vertical-align: bottom;
+}
 .envato{
     display: flex;
     justify-content: space-between;
@@ -58,6 +97,7 @@ body{
 }
 .hero h1{
     font-size: 3em;
+    line-height: 1.2;
 }
 .hero h1 span{
     font-weight: bold;
@@ -96,8 +136,8 @@ body{
 }
 .previews{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10em;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em;
     padding: 2em;
     background-color: #101010;
     
@@ -114,9 +154,8 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    justify-content: center;
-  width: 270px; /* öz ölçünə uyğun dəyiş */
-  height: 250px;
+  max-width: 100%;
+  height: auto;
   }
   .preview img:hover{
     opacity:0.45;
