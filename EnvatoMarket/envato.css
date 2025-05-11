@@ -161,3 +161,53 @@ body{
     opacity:0.45;
     cursor: pointer;
   }
+  .hidden {
+    display: none;
+}
+.btn-container {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin: 2em 0;
+}
+#showMoreBtn {
+    background-color: white;
+    color: #1a1a1a;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+#showMoreBtn:hover {
+    background-color: #f2f2f2;
+}
+
+.under-photos{
+    text-align: center;
+    padding: 5em 2em;
+    background: white;
+}
+.under-photos h1{
+    font-size: 3em;
+    background-color: white;
+    color: black;
+}
+.under-photos h5{
+    font-size: 1em;
+    font-weight:400;
+    color: #666;
+}
+.Little-text{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.texts h2{
+    color: #0d0606;
+}
+.texts{
+    color: #5b5a5a;
+    line-height: 30px;
+}
