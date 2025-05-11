@@ -43,6 +43,12 @@ body{
     overflow: hidden;
     vertical-align: bottom;
 }
+.sticky-header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
 .envato{
     display: flex;
     justify-content: space-between;
@@ -203,6 +209,7 @@ body{
 .Little-text{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+   justify-items: center;
 }
 .texts h2{
     color: #0d0606;
@@ -210,4 +217,34 @@ body{
 .texts{
     color: #5b5a5a;
     line-height: 30px;
+}
+.Purple-part{
+  background-color: purple;
+  height: 100vh;
+  color: white;
+  animation: gradientMove 12s ease infinite;
+  background: linear-gradient(-45deg,steelblue,Purple,rgb(186, 139, 230));
+  background-size: 400% 400%;
+}
+@keyframes gradientMove{
+    0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+}
+.Top-words h6{
+display: flex;
+justify-content: center;
+padding-top: 100px;
+margin-top: 10px;
+font-size: 15px;
+color: #828282;
+}
+.semi-top{
+    font-size: 30px;
 }
