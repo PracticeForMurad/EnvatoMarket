@@ -1,0 +1,108 @@
+{
+    "demoImages": [
+      {
+        "url": "https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2025/01/demo-homepage-Classic-Agency-Uncode-2025.jpg",
+        "category": ["all", "classic", "agency"]
+      },
+      {
+        "url": "https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2025/01/demo-homepage-Shop-Ajax-Uncode-2025.jpg",
+        "category": ["all", "shop"]
+      },
+      {
+        "url": "https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2025/01/demo-homepage-Creative-Hub-Uncode-2025.jpg",
+        "category": ["all", "creative"]
+      },
+      {
+        "url": "https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2023/05/demo-homepage-Creative-Agency-Uncode-2023-New.jpg",
+        "category": ["all", "creative", "agency"]
+      },
+      {
+        "url": "https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2025/01/demo-homepage-Classic-Innovators-New-Uncode-2025.jpg",
+        "category": ["all", "classic", "business"]
+      },
+      {
+        "url": "https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2025/02/demo-homepage-Portfolio-Cards-Def-Uncode-2025.jpg",
+        "category": ["all", "freelance", "portfolio"]
+      },
+      {
+        "url": "https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2024/08/demo-homepage-Creative-Marketing-Uncode-2024-C-New.jpg",
+        "category": ["all", "creative", "business"]
+      },
+      {
+        "url": "https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2025/03/demo-homepage-Classic-Business-New-Uncode-2025.jpg",
+        "category": ["all", "classic", "business"]
+      },
+      {
+        "url": "https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2024/04/demo-homepage-Classic-Restaurant-Uncode-2024.jpg",
+        "category": ["all", "classic", "business"]
+      },
+      {
+        "url": "https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2025/01/demo-homepage-Portfolio-Freelance-Uncode-2025.jpg",
+        "category": ["all", "portfolio", "freelance"]
+      },
+      {
+        "url": "https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2025/01/demo-homepage-Portfolio-Design-Studio-Uncode-2025.jpg",
+        "category": ["all", "portfolio", "creative"]
+      },
+      {
+        "url": "https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2025/01/demo-homepage-Portfolio-Designer-Uncode-2025.jpg",
+        "category": ["all", "portfolio", "freelance"]
+      },
+      {
+        "url": "https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2025/01/demo-homepage-Creative-Prototype-New-Uncode-2025.jpg",
+        "category": ["all", "creative"],
+        "hidden": true
+      },
+      {
+        "url": "https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2025/02/demo-homepage-Creative-Architect-New-Uncode-2025.jpg",
+        "category": ["all", "creative", "business"],
+        "hidden": true
+      },
+      {
+        "url": "https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2025/01/demo-homepage-Creative-Company-Uncode-2025.jpg",
+        "category": ["all", "creative", "business"],
+        "hidden": true
+      },
+      {
+        "url": "https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2025/01/demo-homepage-Creative-Bistrot-Uncode-2025.jpg",
+        "category": ["all", "creative", "business"],
+        "hidden": true
+      },
+      {
+        "url": "https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2024/08/demo-homepage-Creative-Event-Uncode-2024-C-New.jpg",
+        "category": ["all", "creative", "business"],
+        "hidden": true
+      },
+      {
+        "url": "https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2025/01/demo-homepage-Shop-Creative-Uncode-2025.jpg",
+        "category": ["all", "shop", "creative"],
+        "hidden": true
+      },
+      {
+        "url": "https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2025/01/demo-homepage-Creative-Designers-Uncode-2025.jpg",
+        "category": ["all", "creative"],
+        "hidden": true
+      },
+      {
+        "url": "https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2024/04/demo-homepage-Shop-Bold-Uncode-New-A-2024.jpg",
+        "category": ["all", "shop"],
+        "hidden": true
+      }
+    ],
+    "categoryLabels": {
+      "all": "Show all",
+      "classic": "Classic",
+      "creative": "Creative",
+      "blog": "Blog",
+      "shop": "Shop",
+      "business": "Business",
+      "agency": "Agency",
+      "freelance": "Freelance",
+      "photography": "Photography",
+      "portfolio": "Portfolio"
+    },
+    "wordAnimation": {
+      "words": ["landing", "magazines", "website", "portfolio", "e-shop"],
+      "interval": 2000
+    }
+  }
